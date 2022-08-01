@@ -1,0 +1,43 @@
+ 
+ <h1>Edit Task</h1>
+ <hr>
+ <style>
+     h1{
+         text-align:center;
+     }
+    p{
+         text-align:center;
+     }
+     label {
+      display: inline-block;
+      width: 150px;
+       text-align: left;
+        margin-bottom: 20px;
+     }
+     button{
+         display: inline-block;
+       width: 150px;
+       text-align: center;
+       margin-right: 35px;
+       margin-left: 25px;
+     }
+ div{
+    text-align:center;
+    }
+    </style>
+    <div>
+    <br>
+    <br>
+    <br>
+    <label for="Task Name"><b>Task Name</b></label>
+    <input type="text" placeholder="Enter your Task Name" name="Task Name" id="Task Name" required>
+    <br>
+    <label for="status">Status</label>
+    <select name="status" id="status">
+    <option value="Completed">Completed</option>
+    <option value="Pending">Pending</option>
+    </select>
+    <br>
+    <button type="submit" class="submitbtn">Submit</button>
+    <button type="submit" class="resetbtn">Reset</button>
+    </div>
