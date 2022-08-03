@@ -6,9 +6,12 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AddTaskComponent } from './add-task/add-task.component';
 import { ListTaskComponent } from './list-task/list-task.component';
-import { EditTaskComponent } from './edit-task/edit-task.component';
+
 import { ViewUserComponent } from './view-user/view-user.component';
 import { EditUserComponent } from './edit-user/edit-user.component';
+import { EditTaskComponent } from './edit-task/edit-task.component';
+
+
 
 const routes: Routes = [
   {path:'home', component:HomeComponent},
@@ -19,7 +22,7 @@ const routes: Routes = [
   {path:'edituser',component:EditUserComponent},
   {path:'addtask', component:AddTaskComponent},
   {path:'listtask',component:ListTaskComponent},
-  {path:'edittask',component:EditTaskComponent},
+  {path:'edittasks',component:EditTaskComponent},
   {path:'', redirectTo:'home' ,pathMatch:'full'}
 ];
 
