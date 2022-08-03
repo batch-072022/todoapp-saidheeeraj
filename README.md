@@ -16,5 +16,5 @@
 * Delete User
 * Add Task
 * List Task
-* Edit Task ( In Progress)
+* Edit Task 
 
